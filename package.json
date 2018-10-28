@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5"
+    "hoist-non-react-statics": "^3.0.1",
+    "invariant": "^2.2.4",
+    "react": "^v16.7.0-alpha",
+    "react-dom": "^v16.7.0-alpha",
+    "react-is": "^16.6.0",
+    "react-scripts": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
