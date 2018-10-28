@@ -1,4 +1,4 @@
-import connect from './connect';
-import { GlobalStateProvider } from './context';
+import { GlobalStateProvider, connect } from './context';
+import reduceReducers from './reduceReducers';
 
-export { connect, GlobalStateProvider };
+export { connect, GlobalStateProvider, reduceReducers };

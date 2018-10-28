@@ -1,11 +1,11 @@
 import React from 'react';
-import { Content, SideBar } from './components';
+import { Content, SideBar, Header } from './components';
 import './App.css';
 
 const App = props => {
   return (
     <div className="App">
-      <header className="App-header" />
+      <Header />
       <div>
         <SideBar />
         <div style={{ padding: '50px' }}>

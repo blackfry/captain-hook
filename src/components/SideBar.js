@@ -8,5 +8,4 @@ const SideBar = ({ count, dispatch }) => (
   </div>
 );
 
-// export default connect(SideBar);
-export default SideBar;
+export default connect(SideBar);
